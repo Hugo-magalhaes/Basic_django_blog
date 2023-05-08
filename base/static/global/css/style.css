@@ -1,0 +1,49 @@
+body {
+    background-color: #f1f1f1;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a {
+    color: #0078e8;
+    text-decoration: None;
+}
+
+.content {
+    display: grid;
+    gap: 1.5rem;
+    padding: 1.5rem;
+}
+
+.post {
+    background-color: #fff;
+    padding: 1.5rem;
+    box-shadow: 5px 2px 5px rgba(0, 0, 0, 30%);
+    border-radius: 30px;
+}
+
+@media (min-width: 600px) {
+    .content:not(:has(.single-post)) {
+        grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+    }
+}
+
+.menu__links a {
+    display: block;
+    color: #fff;
+    padding: 1.5rem;
+    background-color: #1668b5;
+}
+
+.menu__links {
+    list-style: none;
+    display: flex;
+}
+
+.menu {
+    background-color: #000;
+    padding: 0 1.5rem;
+
+}
