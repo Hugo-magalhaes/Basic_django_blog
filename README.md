@@ -17,4 +17,8 @@ Um Blog em Django com links dinâmicos, sqlite para atualização de posts e mel
 - ``CSS``
 
 ## 📁 Visual do projeto
-<video src="images/video_presentation.mp4" controls title="Title"></video>
+https://github.com/Hugo-magalhaes/Basic_django_blog/assets/83922846/e9609ffa-1922-4cda-b243-8607b7866871
+
+
+
+
